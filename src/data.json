@@ -1,0 +1,63 @@
+[
+    {
+      "flight_number": "AV9245",
+      "airline": "Avianca",
+      "departure_airport": "BOG",
+      "departure_city": "Bogotá",
+      "arrival_airport": "MDE",
+      "arrival_city": "Medellín",
+      "departure_time": "2024-10-01T08:00:00",
+      "arrival_time": "2024-10-01T09:00:00",
+      "cost": 150000,
+      "currency": "COP"
+    },
+    {
+      "flight_number": "LA4012",
+      "airline": "LATAM",
+      "departure_airport": "BOG",
+      "departure_city": "Bogotá",
+      "arrival_airport": "CLO",
+      "arrival_city": "Cali",
+      "departure_time": "2024-10-01T10:00:00",
+      "arrival_time": "2024-10-01T11:30:00",
+      "cost": 200000,
+      "currency": "COP"
+    },
+    {
+      "flight_number": "VH1123",
+      "airline": "Viva Air",
+      "departure_airport": "BOG",
+      "departure_city": "Bogotá",
+      "arrival_airport": "CTG",
+      "arrival_city": "Cartagena",
+      "departure_time": "2024-10-01T13:00:00",
+      "arrival_time": "2024-10-01T14:30:00",
+      "cost": 180000,
+      "currency": "COP"
+    },
+    {
+      "flight_number": "AV9263",
+      "airline": "Avianca",
+      "departure_airport": "BOG",
+      "departure_city": "Bogotá",
+      "arrival_airport": "SMR",
+      "arrival_city": "Santa Marta",
+      "departure_time": "2024-10-01T15:00:00",
+      "arrival_time": "2024-10-01T16:30:00",
+      "cost": 220000,
+      "currency": "COP"
+    },
+    {
+      "flight_number": "W62457",
+      "airline": "Wingo",
+      "departure_airport": "BOG",
+      "departure_city": "Bogotá",
+      "arrival_airport": "BAQ",
+      "arrival_city": "Barranquilla",
+      "departure_time": "2024-10-01T17:00:00",
+      "arrival_time": "2024-10-01T18:30:00",
+      "cost": 170000,
+      "currency": "COP"
+    }
+  ]
+  

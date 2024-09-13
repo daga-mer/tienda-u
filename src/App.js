@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+//import './App.css';
+import { useEffect, useState } from 'react';
+import Buscador from './components/buscador';
+import NavBarComponent from './components/navBarComponent';
 
 function App() {
+  let [cart, setCart] = useState([])
+
+
+  useEffect(() => {
+    if (cart != null && cart.length === 0) {
+      setCart(JSON.parse(localStorage.getItem('cart')))
+    }
+  }, [cart])
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <NavBarComponent cart={cart} setCart={setCart} />
       </header>
+      
+      <div className='container'>
+        <Buscador cart={cart} setCart={setCart} />
+      </div>
     </div>
   );
 }
